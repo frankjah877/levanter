@@ -1,4 +1,4 @@
-const { Sequelize } = require('sequelize')
+noconst { Sequelize } = require('sequelize')
 const { existsSync } = require('fs')
 const path = require('path')
 const configPath = path.join(__dirname, './config.env')
@@ -83,4 +83,22 @@ module.exports = {
   AUTO_UPDATE: process.env.AUTO_UPDATE || 'true',
   WHITE_LIST: process.env.WHITE_LIST || '',
   BOT_LANG: process.env.BOT_LANG || 'english',
-}
+echo "SESSION_ID = Raganork~8db6217acb4e96cef8a598925e824df8:55355753597474304a63733d
+PREFIX = .
+STICKER_PACKNAME = LyFE
+ALWAYS_ONLINE = true
+RMBG_KEY = null
+LANGUAG = en
+WARN_LIMIT = 3
+FORCE_LOGOUT = false
+BRAINSHOP = 159501,6pq8dPiYt7PdqHz3
+MAX_UPLOAD = 200
+REJECT_CALL = false
+SUDO = 989876543210
+TZ = Asia/Kolkata
+VPS = true
+AUTO_STATUS_VIEW = true
+SEND_READ = true
+AJOIN = true
+DISABLE_START_MESSAGE = false
+PERSONAL_MESSAGE = null" > config.env}
